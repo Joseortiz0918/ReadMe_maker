@@ -38,7 +38,6 @@ function generateREADME(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Licenses](#licenses)
-  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   * [Credits](#credits)
@@ -53,9 +52,6 @@ function generateREADME(data) {
     ${data.usage}
 
     ${licenseSection(data.license)}
-
-    ## Contributing
-    ${data.contributing}
 
     ## Tests
     ${data.tests}
